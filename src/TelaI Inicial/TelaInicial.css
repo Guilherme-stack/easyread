@@ -1,0 +1,124 @@
+ 
+.TelaInicial{
+    background-image: url("../imagens/Background.png");
+    background-size: cover;
+    background-position:center;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+.DisplayNone{
+    opacity: 0;
+}
+.Logo{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.Logo img{
+    margin-top: 85px;
+    width: 600px;
+}
+.Button-Entrar:hover{
+    background-color: #399FCB;
+    color: white;
+    border: 3px solid white;
+    transition: 0.7s;
+}
+.Button-Entrar:hover a{
+    color: white;
+    transition: 0.7s;
+}
+ 
+
+.Formulario-Entrada{
+    margin-top: 80px;
+      
+    display: grid;
+    grid-gap: 30px;
+}
+.Input-Nome{
+    width: 450px;
+    margin: auto;
+    outline: none;
+    border: 3px solid #E1D800;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 20px;
+    height: 50px;
+    color: #E1D800;
+    font-family: 'Poppins';
+}
+.Button-Entrar {
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #21AF09;
+    background-color: white;
+    color: #21AF09;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+.Link-Entrar {
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+     
+     
+    color: #21AF09;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+.Button-Entrar a{
+     text-decoration: none;
+     color: #21AF09;
+}
+.Footer{
+    background-image: url("../imagens/footer.png");
+   
+    position: fixed; 
+    bottom: 0px;
+    height: 110px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+     
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+}
+.Footer p{
+    
+    color:#399FCB ; 
+    font-size: 1.1rem;
+}
+.primeiro img{
+    position: fixed;
+    bottom: 13px;
+    width: 20px;
+    margin-left: 30px;
+}
+.segundo img{
+    position: fixed;
+    bottom: 13px;
+    width: 20px;
+    margin-left: -30px;
+}
+.terceiro img{
+    position: fixed;
+    bottom: 13px;
+    width: 20px;
+}
+::-webkit-input-placeholder {
+    color: #E1D800;
+    opacity: 0.3;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+ }
+ 

@@ -1,0 +1,103 @@
+.TelaResultado{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+.Palavra{
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    border-right: 3px solid #64A3BE;
+     
+    justify-content: space-around;
+}
+.PalavraCorreta{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 1rem;
+}
+.PalavraDigitada{
+    font-size: 1rem;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+.ScoreBoard{
+    margin: 20px;
+    
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
+}
+.ButtonJogarNovamente{
+    grid-column: span 2;
+     
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+.ButtonJogarNovamente a{
+    text-decoration: none;
+    background-color: #fff;
+     outline: none;
+     border: 3px solid  #69C85A;
+     cursor: pointer;
+     padding: 15px 0px;
+     border-radius: 30px;
+     color: #69C85A;
+     font-size: 1.3rem;
+}
+.ButtonJogarNovamente a:hover{
+    background-color: #399FCB;
+    color: white;
+    transition: 0.6s;
+    border: 3px solid #ffffff24;
+      
+}
+.Acertos,.Erros,.MediaSegundos,.Aproveitamento{
+    text-align: center;
+    display: grid;
+    align-items: center;
+     
+}
+.Acertos{
+    border: 3px solid #69C85A;
+    color:#69C85A ;
+    font-size: 1.5rem;
+}
+.Erros{
+    border: 3px solid #EA2323;
+    color:#EA2323 ;
+    font-size: 1.5rem;
+}
+.MediaSegundos{
+    border: 3px solid #E1D800;
+    color: #E1D800;
+    font-size: 1.5rem;
+}
+.Aproveitamento{
+    border: 3px solid #64A3BE;
+    color: #64A3BE;
+    font-size: 1.5rem;
+}
+.TitlePalavra{
+    background-color: #64A3BE;
+    color: white;
+    font-size: 1.5rem;
+}
+.Sorteado{
+    color:#64A3BE;
+    text-transform: uppercase;
+}
+.Acerto{
+    color:#69C85A ;
+    text-transform: uppercase;
+}
+.Erro{
+    color: #EA2323;
+    text-transform: uppercase;
+}

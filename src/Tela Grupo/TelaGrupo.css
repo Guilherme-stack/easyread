@@ -1,0 +1,25 @@
+.Tela-Grupo{
+    font-family: "Poppins"; 
+}
+@media (min-width:1200px){
+    .Caixa-Grupo-Palavras{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 80vh;
+        grid-gap: 30px;
+        margin: 20px 40px;
+       
+    }
+}
+@media (max-width:1200px){
+    .Caixa-Grupo-Palavras{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        height: 80vh;
+        grid-gap: 30px;
+        margin: 20px 40px;
+         
+    }
+}
+ 
+ 

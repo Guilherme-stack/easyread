@@ -1,0 +1,30 @@
+.Header{
+    font-family: 'Poppins';
+}
+.caixa-dificuldade{
+    border: 2px solid #399FCB;
+    position: relative;
+    padding: 20px;
+    display: inline;
+}
+.caixa-dificuldade h1{
+    text-align: center;
+    margin-top: 150px;
+    color:#399FCB ;
+    font-size: 50px;
+    font-weight: 700;
+}
+ 
+.selecionar-dificuldade{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-weight: 700;
+    
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80%;
+    cursor: pointer;
+    
+     
+}

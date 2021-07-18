@@ -1,0 +1,63 @@
+.Caixa{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 0.2fr;
+    width: 100%; 
+    height: 100%;
+     
+}
+.Caixa-Grupo{
+    display: grid;
+     
+    grid-template-rows: 1fr 0.1fr;
+    width: 100%; 
+    height: 100%;
+    
+}
+.Caixa-Numero{
+    border: 3px solid #399FCB;
+    background-color: white;
+    color: #399FCB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.Palavras{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Jogar{
+    width: 100%;
+    border: 3px solid rgba(255, 255, 255, 0.32);
+    background-color: #399FCB;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+.Jogar:hover{
+    width: 100%;
+    border: 3px solid #fff;
+    background-color: #207ba2;
+    transition: 0.6s;
+}
+.Button-Jogar{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+.Button-Jogar:hover{
+    text-align: center;
+    
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+ 
